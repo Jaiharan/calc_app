@@ -5,6 +5,18 @@
 body{
   margin: 0;
   background: linear-gradient(to right, #FFD099, #FF9209);
+  /* background: linear-gradient(#ff0000, #0000ff, #00ff00, #ff0000); */
+  background-size: 600% 600%;
+  animation: gradientAnimation 10s linear infinite;
+}
+
+@keyframes gradientAnimation{
+  0%{
+    background-position: 0% 0%;
+  }
+  100%{
+    background-position: 100% 100%;
+  }
 }
 
 .calculator-grid{
